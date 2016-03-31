@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{bd604f61-551c-4adf-ab26-aa1fa5d2c896}"
+       Name="Manager"
+       DisplayName="Manager"
+      Type="User"
+       UserSelectionMode="0"
+       Required="TRUE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

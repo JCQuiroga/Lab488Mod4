@@ -91,9 +91,17 @@ namespace Lab488Mod4.Features.ContratacionFeature
 
         // Uncomment the method below to handle the event raised before a feature is deactivated.
 
-        //public override void FeatureDeactivating(SPFeatureReceiverProperties properties)
-        //{
-        //}
+        public override void FeatureDeactivating(SPFeatureReceiverProperties properties)
+        {
+            var site = properties.Feature.Parent as SPSite;
+            var web = site.RootWeb;
+            SPContentType contratacionCT = web.ContentTypes[ctid];
+
+            if (contratacionCT != null)
+            {
+                web.ContentTypes.Delete(ctid);
+            }
+        }
 
 
         // Uncomment the method below to handle the event raised after a feature has been installed.

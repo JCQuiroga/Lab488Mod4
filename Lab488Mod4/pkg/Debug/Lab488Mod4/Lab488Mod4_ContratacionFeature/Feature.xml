@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Aprobacion de recursos de contratacion" Id="50ee2b70-d17b-4e85-a81b-b42af3d906e2" ReceiverAssembly="Lab488Mod4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ceb6765a8da9f87e" ReceiverClass="Lab488Mod4.Features.ContratacionFeature.ContratacionFeatureEventReceiver" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="Manager\Elements.xml" />
+    <ElementManifest Location="Equipo\Elements.xml" />
+    <ElementManifest Location="Inicio\Elements.xml" />
+    <ElementManifest Location="Fin\Elements.xml" />
+    <ElementManifest Location="Aprobado\Elements.xml" />
+  </ElementManifests>
+</Feature>

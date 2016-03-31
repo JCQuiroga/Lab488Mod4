@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="0288a457-65f1-4d2c-bf8a-a75f55b446dd" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Lab488Mod4.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Lab488Mod4_ContratacionFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{b9852a18-2e0d-4f54-8342-dcfde913e4f6}"
+       Name="Fin"
+       DisplayName="Fin"
+      Type="DateTime"
+      Format="DateOnly"
+       Required="TRUE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>
