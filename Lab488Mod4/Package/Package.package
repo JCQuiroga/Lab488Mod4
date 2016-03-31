@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="0288a457-65f1-4d2c-bf8a-a75f55b446dd" 
+        solutionId="0288a457-65f1-4d2c-bf8a-a75f55b446dd" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Lab488Mod4"
+        sharePointProductVersion="15.0">
+</package>
