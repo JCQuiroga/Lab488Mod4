@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01006321B99267BB414B8C98E047180DD47B" Name="ContentType1" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{475c2610-c157-4b91-9e2d-6855031b3538}" DisplayName="$Resources:core,Full_Name;" Name="FullName" />
+      <FieldRef ID="{bd604f61-551c-4adf-ab26-aa1fa5d2c896}" DisplayName="Manager" Required="TRUE" Name="Manager" />
+      <FieldRef ID="{a47f2474-54d3-4ba8-9c38-6df6cd7ae6db}" DisplayName="Equipo" Required="TRUE" Name="Equipo" />
+      <FieldRef ID="{9c440483-4df0-4115-977d-426e64326b57}" DisplayName="Inicio" Required="TRUE" Name="Inicio" Format="DateOnly" />
+      <FieldRef ID="{b9852a18-2e0d-4f54-8342-dcfde913e4f6}" DisplayName="Fin" Required="TRUE" Name="Fin" Format="DateOnly" />
+      <FieldRef ID="{87cd5873-b493-4b53-8ca8-d5343033a25c}" DisplayName="Aprobado" Required="TRUE" Name="Aprobado" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

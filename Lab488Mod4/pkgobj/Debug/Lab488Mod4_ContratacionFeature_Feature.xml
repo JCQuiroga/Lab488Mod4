@@ -6,5 +6,13 @@
     <ElementManifest Location="Inicio\Elements.xml" />
     <ElementManifest Location="Fin\Elements.xml" />
     <ElementManifest Location="Aprobado\Elements.xml" />
+    <ElementManifest Location="ContentType1\Elements.xml" />
+    <ElementManifest Location="List1Instance\Elements.xml" />
+    <ElementManifest Location="List1\Elements.xml" />
+    <ElementFile Location="List1\Schema.xml" />
+    <ElementFile Location="List1\EditDlg.htm" />
+    <ElementFile Location="List1\FileDlg.htm" />
+    <ElementFile Location="List1\Repair.aspx" />
+    <ElementFile Location="List1\Upload.aspx" />
   </ElementManifests>
 </Feature>

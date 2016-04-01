@@ -60,6 +60,9 @@
     <None Include="Aprobado\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{c307b667-6027-451f-89b1-d3322cbcaff8}</SharePointProjectItemId>
     </None>
+    <None Include="ContentType1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{64c5a916-70d4-495c-85b0-4d743d0de240}</SharePointProjectItemId>
+    </None>
     <None Include="Equipo\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{1210e3a0-7f32-44e2-9e91-84a9bf9947c1}</SharePointProjectItemId>
     </None>
@@ -73,6 +76,12 @@
       <SharePointProjectItemId>{f75903fc-4755-4b41-930f-e13c79eeb28e}</SharePointProjectItemId>
     </None>
     <None Include="key.snk" />
+    <None Include="List1\List1Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{efdb1844-cb18-49b4-854b-fa12565cd13a}</SharePointProjectItemId>
+    </None>
+    <None Include="List1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7cf088d4-3d58-4445-af05-ca3dd9c74528}</SharePointProjectItemId>
+    </None>
     <None Include="Manager\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{c32a3b8b-75b1-4feb-98c5-004b6e115233}</SharePointProjectItemId>
     </None>
@@ -85,12 +94,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Aprobado\Elements.xml" />
+    <Content Include="ContentType1\Elements.xml" />
     <Content Include="Equipo\Elements.xml" />
     <Content Include="Features\ContratacionFeature\ContratacionFeature.Template.xml">
       <DependentUpon>ContratacionFeature.feature</DependentUpon>
     </Content>
     <Content Include="Fin\Elements.xml" />
     <Content Include="Inicio\Elements.xml" />
+    <Content Include="List1\EditDlg.htm" />
+    <Content Include="List1\Elements.xml" />
+    <Content Include="List1\FileDlg.htm" />
+    <Content Include="List1\List1Instance\Elements.xml" />
+    <Content Include="List1\Repair.aspx" />
+    <Content Include="List1\Schema.xml" />
+    <Content Include="List1\Upload.aspx" />
     <Content Include="Manager\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
